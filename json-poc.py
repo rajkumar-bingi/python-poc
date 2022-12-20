@@ -29,9 +29,9 @@ s = json.dumps(book)
 # print(s)
 
 # writing into file
-with open("https://github.com//rajkumar-bingi//python-poc//json-book.txt", "w") as f:
+with open("D://python-poc//json-book.txt", "w") as f:
     f.write(s)
 
 # parse it into python object:
-r = json.dumps(s)
-print(r)
+# r = json.dumps(s)
+# print(r)
